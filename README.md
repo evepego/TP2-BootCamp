@@ -9,7 +9,7 @@
 
 
 ## Configuration réseau
-* Chaque VM doit avoir une IP et pouvoir Pinger le PFSense:  
+* Chaque VM doit avoir une IP et pouvoir `Pinger` le PFSense:  
 
 VM | IP  
 --- | ---
@@ -18,8 +18,18 @@ CENTOS (projet linux) | 10.10.20.20
 
 
 * Les VMs ne doivent pas se pinger entre elles ni sortir sur Internet sans passer par le PFSense:  
-```bash
-```
+    * Pour la VM CentOS: 
+    ```bash
+    [centos8@localhost ~]$ ping 10.10.10.10
+    connect: Network is unreachable
+    ```
+    * Pour la VM Windows:
+    ```bash
+    PS C:\Users\windows> ping 10.10.20.20
+
+    Envoi d'une requête 'Ping'  10.10.20.20 avec 32 octets de données :
+    Délai d'attente de la demande dépassé.
+    ```
 * Le PFSense doit avoir accès à Internet par le réseau INTERNET (NAT):  
 ```bash
 ```
