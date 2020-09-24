@@ -2,10 +2,7 @@
 
 [I. Présentation du sujet & matériel](#Présentation-du-sujet-&-matériel)  
 [II. Configuration réseau](#Configuration-réseau)  
-[III. Configuration des règles sur PfSense](#Configuration-des-règles-sur-PfSense)  
-[IV. Configuration du WAN sur PfSense](#Configaration-du-WAN-sur-PfSense)  
-[V. Configuration du VPN sur PfSense](#Configuration-du-VPN-sur-PfSense)  
-[VI. Optimisation de l'accès au traffic sur PfSense](#Optimisation-de-l’accès-au-traffic-sur-PfSense)  
+[III. Optimisation de l'accès au traffic sur PfSense](#Optimisation-de-l’accès-au-traffic-sur-PfSense)   
 
 ## Présentation du sujet & matériel
 ![topo](topo.png)  
