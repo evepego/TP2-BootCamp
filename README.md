@@ -10,10 +10,10 @@
 
 ## Configuration réseau
 * Chaque VM doit avoir une IP et pouvoir Pinger le PFSense:  
-VM | IP  
---- | ---   
-Windows | 10.10.10.10  
-CENTOS (projet linux) | 10.10.20.20  
+| VM | IP |
+| --- | --- |
+| Windows | 10.10.10.10 | 
+|CENTOS (projet linux) | 10.10.20.20 |
 * Les VMs ne doivent pas se pinger entre elles ni sortir sur Internet sans passer par le PFSense:  
 ```bash
 ```
