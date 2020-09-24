@@ -42,8 +42,8 @@ CENTOS (projet linux) | 10.10.20.20
 ![img1](img1.png)
 ![img2](img2.png)
 * Le PFSense doit servir de serveur DHCP aux réseaux Host Only:  
-```bash
-```
+![img3](img3.png)
+![img4](img4.png)
 * Le PFSense doit router les réseaux Host Only entre eux et les réseaux Host Only vers Internet:  
 ```bash
 ```
