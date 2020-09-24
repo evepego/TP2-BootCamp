@@ -10,10 +10,13 @@
 
 ## Configuration réseau
 * Chaque VM doit avoir une IP et pouvoir Pinger le PFSense:  
-| VM | IP |  
-| --- | --- |  
-| Windows | 10.10.10.10 |  
-|CENTOS (projet linux) | 10.10.20.20 |  
+
+VM | IP  
+--- | ---
+Windows | 10.10.10.10  
+CENTOS (projet linux) | 10.10.20.20 
+
+
 * Les VMs ne doivent pas se pinger entre elles ni sortir sur Internet sans passer par le PFSense:  
 ```bash
 ```
@@ -54,3 +57,8 @@
 Configurer un Traffic Shapper (limitation de bande passante) sur le réseau CentOS à destination des autres réseau, avec une Bande Passante max de 200ko/s:  
 ```bash
 ```
+
+Réseaux | `area 0` | `area 1` | `area 2` | Commentaire
+--- | :---: | :---: | :---: | ---
+`10.6.100.0/30` | X | - | - | Liaison entre `r1` et `r2`
+
