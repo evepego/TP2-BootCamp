@@ -40,6 +40,7 @@ CENTOS (projet linux) | 10.10.20.20
     ```
 * Le PFSense doit avoir accès à Internet par le réseau INTERNET (NAT):  
 ![img1](img1.png)
+![img2](img2.png)
 * Le PFSense doit servir de serveur DHCP aux réseaux Host Only:  
 ```bash
 ```
