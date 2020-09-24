@@ -7,6 +7,14 @@
 [V. Configuration du VPN sur PfSense](#Configuration-du-VPN-sur-PfSense)  
 [VI. Optimisation de l'accès au traffic sur PfSense](#Optimisation-de-l’accès-au-traffic-sur-PfSense)  
 
+## Présentation du sujet & matériel
+![topo](topo.png)  
+→ 1 x VM PfSense  
+→ 1 x VM CentOS minimale  
+→ 1 x VM Windows 10 Client  
+→ 3 x Réseaux Host Only  
+→ 1 x Réseau NAT  
+→ 1 x Réseau de management (Host Only ou Bridge) sert à administrer les VMs depuis le PC
 
 ## Configuration réseau
 * Chaque VM doit avoir une IP et pouvoir `Pinger` le PFSense:  
