@@ -73,5 +73,4 @@ CENTOS (projet linux) | 10.10.20.20
 ```
 ## Optimisation de l’accès au traffic sur PfSense
 Configurer un Traffic Shapper (limitation de bande passante) sur le réseau CentOS à destination des autres réseau, avec une Bande Passante max de 200ko/s:  
-```bash
-```
+![bandepassante](bandepassante.png)
