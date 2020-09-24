@@ -39,8 +39,7 @@ CENTOS (projet linux) | 10.10.20.20
     Délai d'attente de la demande dépassé.
     ```
 * Le PFSense doit avoir accès à Internet par le réseau INTERNET (NAT):  
-```bash
-```
+![img1](img1.png)
 * Le PFSense doit servir de serveur DHCP aux réseaux Host Only:  
 ```bash
 ```
@@ -57,7 +56,7 @@ CENTOS (projet linux) | 10.10.20.20
 * Le Windows doit pouvoir contacter votre Projet Linux:  
 ```bash
 ```
-## Configurez le WAN sur PfSense  
+## Configuration du WAN sur PfSense  
 * Configurer un NAT Static pour que chaque sous réseaux Host Only utilisent une adresse du réseau Internet différente (S-NAT):  
 ```bash
 ```
